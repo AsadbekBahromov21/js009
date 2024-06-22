@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bahromov_A</title>
+    <link rel="stylesheet" href="https://unicons.iconscount.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="navbar__logo">
+                    <img src="./images/a harf.jpg" alt="">
+                </div>
+                <ul class="navbar__collection">
+                    <li class="navbar__item"><a href="https://github.com/AsadbekBahromov21/js-"><span>Hayotim</span></a></li>
+                    <li class="navbar__item"><a href="https://js-lovat-zeta.vercel.app/"><span>Tajriba</span></a></li>
+                    <li class="navbar__item"><a href="https://js007.vercel.app/"><span>Bilimlar</span></a></li>
+                    <li class="navbar__item"><a href="https://js007.vercel.app/"><span>Tagdimotlar</span></a></li>
+                    <li class="navbar__item"><a href="https://github.com/AsadbekBahromov21/masala"><span>Tel nomer</span></a></li>
+                </ul>
+                <div class="navbar__icon">
+                    <a href="#"><i class="fa-solid fa-phone"></i></a>
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div onclick="toggleShow()" class="navbar__menu">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="navbar__button">
+                    log in
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="home">
+          <div class="form">
+            <i class="fa-solid fa-xmark close"></i>
+            <div class="form__login">
+                <form action="#">
+                    <h2>login</h2>
+                    <div class="input__box">
+                        <input type="email" placeholder="Enter your emall" required>
+                        <i class="fa-solid fa-envelope emall"></i>
+                    </div>
+                    <div class="input__box">
+                        <input type="password" placeholder="Enter your password" required>
+                        <i class="fa-solid fa-lock password"></i>
+                        <!-- <i class="fa-solid fa-eye-slash"></i> -->
+                    </div>
+
+                    <div class="option__flied">
+                        <span class="checkbox">
+                            <input type="checkbox" id="check" >
+                            <label for="check">Revember me</label>
+                        </span>
+                        <a  class="forgot__pw" href="#">maning password?</a>
+                    </div>
+                    <button onclick="toggleShow()" class="button" id="form-open" >Login Now</button>
+
+                    <div class="login__singup">
+                        Aleady have an account? <a href="#" id="singup" >Signup</a>
+                    </div>
+                </form>
+            </div>
+            <div class="form__signup">
+                <form action="#">
+                    <h2>signup</h2>
+                    <div class="input__box">
+                        <input type="email" placeholder="Enter your emall" required>
+                        <i class="fa-solid fa-envelope emall"></i>
+                    </div>
+                    <div class="input__box">
+                        <input type="password" placeholder="Enter create password" required>
+                        <i class="fa-solid fa-lock password"></i>
+                        <!-- <i class="fa-solid fa-eye-slash"></i> -->
+                    </div>
+                    <div class="input__box">
+                        <input type="password" placeholder="Enter confitum password" required>
+                        <i class="fa-solid fa-lock password"></i>
+                        <!-- <i class="fa-solid fa-eye-slash"></i> -->
+                    </div>
+                    <button class="button">Signup Now</button>
+
+                    <div class="login__singup">
+                       Do'nt Aleady have an account? <a href="#" id="login " >Signup</a>
+                    </div>
+                </form>
+            </div>
+          </div>
+    </section>
+    <main>
+        <div class="hero" id="hero">
+            <div class="hero__wrapper">
+                <div class="container">
+                    <div class="hero__content">
+                        <p>Asadbek</p>
+                        <p>Bahromov</p>
+                        <button><a href="#">Ma'lumot</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="content" id="content">
+            <div class="container">
+                <b>Shu paytgacha organgan narsalarim:</b>
+                <div class="content__wrapper">
+                    <div class="content__desc">
+                        <p>javaScript</p>
+                    </div>
+                    <div class="content__desc">
+                        <p>SCSS</p>
+                    </div>
+                    <div class="content__desc">
+                        <p>HTML</p>
+                    </div>
+                    <div class="content__desc">
+                        <p>SEO</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="acardion" id="acardion">
+            <div class="container">
+                <p class="acardion__p">O'zim haqimda malumot</p>
+                <ul id="accordion">
+                    <li>
+                        <label for="first">Yoshligim <span>&#X3e;</span></label>
+                        <input type="radio" name="accordion" id="first" checked>
+                        <div class="content">
+                            <p>Man Bahromov Asadbek Shuhratbek o'li 2004 yil Namangan viloyati norin tumanidan tug'lganamn. Oilada 5 nafar oila azolorim bor . Katta farzan ozim mandan song ukam bor , ukam hozirda maktabda taxsil olmoqda.Man maktabni tamomlab Oliy oquv yurtiga kirdm , bu ozim ozim yoqtirgan oliy oquv yurti edi . 2022 - yil Oqishga ham kirib oldim .Oqishga kirmasdan  oldin Universitet man uchun goyoki U yerda oqigan odamlar zo'r kasb egalari bo'lib  yaxshi joylarda ishlaydigan joy deb oylardim , lekin kirgandan song odam ozi intilmasa hechnarsaga erisha olmasli , va ozi hohlagan ishda ishlay olmasligi ya;ni bu gapim bn unversitet yomon demoqchimasmn unversitet oz ustida ishlaydigan ozi harakat qiladigan inson uchun  eng zor oliy oquv yurti hisoblanadi yani ozi sevgan kasbga ega boladi .  
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <label for="second">Na'jot ta'lim <span>&#X3e;</span></label>
+                        <input type="radio" name="accordion" id="second" checked>
+                        <div class="content">
+                            <p>Mani katta yutugum 01. 03. 2024 yildan Boshlandi . Bu kun yani dasturlashdan habari yo bolgan inson man haqimda ketadi .Togrisi dasturlashga boshida qiziqish yo edi ya'ni uydagilarni maslaxatlari bilan Najot talimga keldim .Man borgan kun yani yangi ochilayotgan N 67 guruhga 1 ta bola kamlik qilayotgan ekn bor dim u yerdagi insonlar bn suxbatlashdim yani Na'jot ta'lim bittirgan dan song kim bolib ishlash , nima ish bia=lan shugullanishim , bu yerni bitirgandan song osilar ish bn ta'minlashini yani bir necha savollar bn suxbatlashdim va mnga tartib qoiydalar ichki intizom maqul kelli va borgan kunimdan birinchi darsga kirdim . bizga Dars otayotgan ustoz Boburmiro  dars otshni bizga chuntirib yaxshi fedbeklar berdi. </p>
+                        </div>
+                    </li>
+                    <li>
+                        <label for="third">Nimalrni bilaman?<span>&#X3e;</span></label>
+                        <input type="radio" name="accordion" id="third" checked>
+                        <div class="content">
+                            <p>1- HTML , 2- SCSS , 3- js. 4- git</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="block">
+            <div class="container">
+                <div class="block__wrapper activ ">
+                    <span class="overlay" id="persent" >o%</span>
+                </div>
+            </div>
+        </section>
+        
+                
+                
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

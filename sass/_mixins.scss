@@ -1,0 +1,17 @@
+@mixin button(){
+    padding: 10px 8px ;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    background:#F7EBE5;
+    transform: .5;
+    &:hover{
+        cursor: pointer;
+        transform: 0.5;
+    }
+    a{
+        font-size: 14px;
+        font-weight: 400;
+        color: #292929c0;
+    }
+}
