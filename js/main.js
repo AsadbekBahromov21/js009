@@ -160,3 +160,12 @@ closeBtn.addEventListener("click", () => home.classList.remove("show"))
 //     }
     
 // }
+{
+    // 7 masala
+    const foo = (str) =>
+      str === "light" ? console.log("dark") : console.log("light");
+    foo();
+  
+    console.log(foo("light"));
+    // console.log(haYoq("dark"));
+  }
